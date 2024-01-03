@@ -1,0 +1,42 @@
+
+1. **What is React?**
+   - React is a JavaScript library for building user interfaces.
+
+2. **What is a library?**
+   - A library is a collection of pre-written code that helps developers do common tasks more easily.
+
+3. **What is a single-page application (SPA)?**
+   - An SPA is a website that works on one page, dynamically updating content without loading new pages.
+
+4. **What is a component?**
+   - A component is a reusable piece of code that defines a part of a user interface.
+
+6. **What is DOM?**
+   - DOM is a way browsers organize and manipulate web page content.
+
+7. **What is React Virtual DOM?**
+   - React Virtual DOM is a technique to make web page updates more efficient.
+
+8. **What does a web application or website have?**
+   - It has HTML for structure, CSS for style, and JavaScript for behavior.
+
+9. **Why React?**
+   - React simplifies building user interfaces with reusable components.
+
+13. **What is an HTML element?**
+    - An HTML element is a building block of a web page, like a tag.
+
+14. **How to write a self-closing HTML element?**
+    - Use a single tag with a slash before the closing angle bracket, like `<img />`.
+
+15. **What is an HTML attribute? Write some of them.**
+    - Attributes provide information about elements, e.g., `class`, `id`, `src`.
+
+16. **What is JSX?**
+    - JSX lets you write HTML-like code in JavaScript for React.
+
+17. **What is Babel?**
+    - Babel is a tool that helps use the latest JavaScript features.
+
+18. **What is a transpiler?**
+    - A transpiler converts code from one version of a language to another. Babel is an example for JSX.

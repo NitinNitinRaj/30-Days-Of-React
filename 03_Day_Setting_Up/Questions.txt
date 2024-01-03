@@ -1,0 +1,31 @@
+
+**What is a module?**
+- A module is a piece of code that does a specific job. It can be a single file or a group of files.
+
+**What is a package?**
+- A package is a way to organize and bundle related modules together. It often includes a file (like package.json) with details about the package.
+
+**What is the difference between a module and a package?**
+- A module is a single part of the code, while a package is a collection of related modules grouped together.
+
+**What is NPM?**
+- NPM (Node Package Manager) helps manage and share JavaScript code packages or libraries.
+
+**What is Webpack?**
+- Webpack is a tool that helps bundle together JavaScript modules and assets for web development.
+
+**How do you create a new React project?**
+- You can use Create React App (CRA). Run these commands:
+  ```
+  npx create-react-app my-react-app
+  cd my-react-app
+  npm start
+  ```
+
+**What are the files and folders inside a project folder?**
+
+- `package.json`: Describes the project, its dependencies, and settings.
+- `package-lock.json` or `yarn.lock`: Locks down the versions of dependencies.
+- `.gitignore`: Lists files to be ignored in version control.
+- `node_modules`: Contains project dependencies.
+- `public`: Holds static assets, including an `index.html` file.
