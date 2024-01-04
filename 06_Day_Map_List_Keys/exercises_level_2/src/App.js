@@ -1,0 +1,27 @@
+import BarChart from "./components/BarChart";
+import HexaColors from "./components/HexaColors";
+import NumberGenerator from "./components/NumberGenerator";
+
+export default function App() {
+  const tenHighestPopulation = [
+    { country: "World", population: 7693165599 },
+    { country: "China", population: 1377422166 },
+    { country: "India", population: 1295210000 },
+    { country: "USA", population: 323947000 },
+    { country: "Indonesia", population: 258705000 },
+    { country: "Brazil", population: 206135893 },
+    { country: "Pakistan", population: 194125062 },
+    { country: "Nigeria", population: 186988000 },
+    { country: "Bangladesh", population: 161006790 },
+    { country: "Russian", population: 146599183 },
+    { country: "Japan", population: 126960000 },
+  ];
+  return (
+    <div>
+      <h1 className="heading">World population</h1>
+      <h2 className="sub-heading">Ten most populated countries</h2>
+      {/* <HexaColors max={17} /> */}
+      <BarChart data={tenHighestPopulation} />
+    </div>
+  );
+}
