@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-export default function CountryCard({ countries }) {
+export const CountryCard = ({ countries }) => {
   //Link not working so no continuing with this exercise, completed the main logic
   const [country, setCountry] = useState(countries[0]);
 
@@ -17,4 +17,4 @@ export default function CountryCard({ countries }) {
       <button onClick={onButtonClick}>Select Country</button>
     </div>
   );
-}
+};

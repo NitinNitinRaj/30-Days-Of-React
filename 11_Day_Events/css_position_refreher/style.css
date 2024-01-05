@@ -1,0 +1,26 @@
+.parent {
+  padding: 5px;
+  background: lightblue;
+  position: relative;
+  height: 200vh;
+}
+
+.child {
+  margin: 5px;
+  padding: 5px;
+  height: 20px;
+}
+
+.child-one {
+  background: green;
+  position: sticky;
+  top: 0px;
+}
+
+.child-two {
+  background: orange;
+}
+
+.child-three {
+  background: pink;
+}
